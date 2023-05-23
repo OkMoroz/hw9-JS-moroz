@@ -4,7 +4,7 @@ function getCounter() {
     return (sum += element);
   };
 }
-const sum = getCounter();
+let sum = getCounter();
 console.log(sum(3));
 console.log(sum(5));
 console.log(sum(20));
